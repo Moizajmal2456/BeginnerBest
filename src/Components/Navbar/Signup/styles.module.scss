@@ -1,0 +1,152 @@
+@media (max-width: 450px) {
+    .SignIn_Wrapper{
+      width: 60%;
+      margin:auto;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      border-radius: 20px;
+      justify-content: center;  
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      &:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       }
+      .Input_Fields{
+          padding: 40px;
+          display: flex;
+          flex-direction: column;
+          h2{
+            font-size: 16px;
+          }
+      .Email{
+          width: 90%;
+          padding: 10px;
+          color: #333;
+          font-size: 14px;
+          margin-top: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc;
+        }
+        .Email:focus{
+          outline: none;
+          border-color: blue;
+          box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+          &:hover{
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+          }
+        }
+        .Button{
+          width: 100%;
+          padding: 10px;
+          color: #333;
+          font-size: 14px;
+          cursor: pointer;
+          margin-top: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc;
+        }
+        .Button:hover{
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+  }
+  }
+  
+  @media(min-width: 451px) and (max-width: 768px) { 
+    .SignIn_Wrapper{
+      width: 45%;
+      margin:auto;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      border-radius: 20px;
+      justify-content: center;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      &:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       }
+      .Input_Fields{
+          padding: 40px;
+          display: flex;
+          flex-direction: column;
+      .Email{
+          width: 93%;
+          padding: 10px;
+          color: #333;
+          font-size: 16px;
+          margin-top: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc;
+        }
+        .Email:focus{
+          outline: none;
+          border-color: blue;
+          box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+          &:hover{
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+          }
+        }
+        .Button{
+          width: 100%;
+          padding: 10px;
+          color: #333;
+          font-size: 16px;
+          cursor: pointer;
+          margin-top: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc;
+        }
+        .Button:hover{
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+  }
+  }
+  
+  @media(min-width: 769px) and (max-width: 2560px) {
+    .SignIn_Wrapper{
+      width: 30%;
+      margin:auto;
+      margin-top: 100px;
+      border-radius: 20px;
+      margin-bottom: 50px;
+      justify-content: center;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      &:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       }
+      .Input_Fields{
+          padding: 40px;
+          display: flex;
+          flex-direction: column;
+      .Email{
+          width: 93%;
+          color: #333;
+          padding: 10px;
+          font-size: 16px;
+          margin-top: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc;
+        }
+        .Email:focus{
+          outline: none;
+          border-color: blue;
+          box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+          &:hover{
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+          }
+        }
+        .Button{
+          width: 100%;
+          padding: 10px;
+          color: #333;
+          cursor: pointer;
+          font-size: 16px;
+          margin-top: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc;
+        }
+        .Button:hover{
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+  }
+  }
