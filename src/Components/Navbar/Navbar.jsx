@@ -9,9 +9,9 @@ export const Navbar = () => {
              <li>HTML</li>
              <li>CSS</li>
              <li>JAVASCRIPT</li>
+             <li>JAVA</li>
              <li>REACT JS</li>
-             <li>NODE JS</li>
-             <li>HTML</li>
+             <li>NODEJS</li>
            </ul>
          </div>
          <div className={style.Button}>
