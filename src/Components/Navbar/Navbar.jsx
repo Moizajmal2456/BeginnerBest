@@ -9,7 +9,7 @@ export const Navbar = () => {
   const handleClick = (event) => {
     switch (event.target.innerText) {
       case "HTML":
-        setSelectedListData(Htmldata);
+        <Leftbar Listdata={"HTML"}/>;
         break;
       case "CSS":
         setSelectedListData(Cssdata);
@@ -30,10 +30,10 @@ export const Navbar = () => {
         setSelectedListData(Htmldata);
     }
   };
-  // Ensure that the Leftbar is initially rendered with some default data
-  useEffect(() => {
-    setSelectedListData(Htmldata);
-  }, []);
+  // // Ensure that the Leftbar is initially rendered with some default data
+  // useEffect(() => {
+  //   setSelectedListData(Htmldata);
+  // }, []);
 
   return (
     <div className={style.Navbar_Wrapper}>
