@@ -1,13 +1,20 @@
 import './App.css';
-import { Navbar } from './Components/Navbar/Navbar';
-import { Leftbar } from './Components/Leftbar/Leftbar';
-import { Signin } from './Components/Signin/Signin';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HomePage } from './Pages/Home';
+import { SigninPage } from './Pages/SignIn';
+import { SignupPage } from './Pages/Signup';
+import { HtmlPage } from './Pages/Html';
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Leftbar/>
-      <Signin/>
+    <div>
+      <BrowserRouter>
+       <Routes>
+         <Route path="/" element={<HomePage/>}/>
+         <Route path='/html' element={<HtmlPage/>}/>
+         <Route path='/signin' element={<SigninPage/>}/>
+         <Route path='/signup' element={<SignupPage/>}/>
+       </Routes>
+      </BrowserRouter>
     </div>
   );
 }
