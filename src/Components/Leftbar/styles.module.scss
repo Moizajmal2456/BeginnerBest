@@ -1,15 +1,16 @@
 .Leftbar{
     display: flex;
     flex-direction: column;
-    width: 15%;
-    position: fixed;
+    width: 20%;
+    // position: fixed;
     top: 15vh;
+    min-height: 100vh;
     background-color: #293040;
     ul{
-        gap: 20px;
         color: #f9e7bf;
         list-style-type: none;
         li{
+            font-size: 15px;
             &:hover{
                 cursor: pointer;
             }

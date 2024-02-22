@@ -5,32 +5,30 @@ import style from "./styles.module.scss";
 import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
-  const [selectedListData, setSelectedListData] = useState(Htmldata);
-  
-  {console.log(selectedListData)}
+  const [selectedListData, setSelectedListData] = useState();
   
   const handleClick = (event) => {
     switch (event.target.innerText) {
       case "HTML":
-        setSelectedListData(Htmldata);
+        setSelectedListData("Html");
         break;
       case "CSS":
-        setSelectedListData(Cssdata);
+        setSelectedListData("Css");
         break;
       case "JAVASCRIPT":
-        setSelectedListData(Javascriptdata);
+        setSelectedListData("Javascript");
         break;
       case "JAVA":
-        setSelectedListData(Javadata);
+        setSelectedListData("Java");
         break;
       case "REACT JS":
-        setSelectedListData(Reactdata);
+        setSelectedListData("React");
         break;
       case "NODEJS":
-        setSelectedListData(Nodedata);
+        setSelectedListData("Node");
         break;
         default:
-          setSelectedListData(Htmldata);
+          setSelectedListData("Html");
         }
       };
       // Ensure that the Leftbar is initially rendered with some default data
@@ -39,16 +37,16 @@ export const Navbar = () => {
       }, []);
       
       return (
-        <div className={style.Navbar_Wrapper}>
+    <div className={style.Navbar_Wrapper}>
       <img src="/Images/beginnersbest1.png" alt="logo" />
-      <div className={style.List_Item} onClick={handleClick}>
+      <div className={style.List_Item}>
         <ul>
-          <li><Link to="/html">HTML</Link></li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
-          <li>JAVA</li>
-          <li>REACT JS</li>
-          <li>NODEJS</li>
+          <li><Link to="/selectedtopic/html">HTML</Link></li>
+          <li><Link to="/selectedtopic/css">CSS</Link></li>
+          <li><Link to="/selectedtopic/javascript">JAVASCRIPT</Link></li>
+          <li><Link to="/selectedtopic/java">JAVA</Link></li>
+          <li><Link to="/selectedtopic/react">REACT JS</Link></li>
+          <li><Link to="/selectedtopic/node">NODEJS</Link></li>
         </ul>
       </div>
       <div className={style.Button}>
