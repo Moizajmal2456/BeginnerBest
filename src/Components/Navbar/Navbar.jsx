@@ -41,7 +41,7 @@ export const Navbar = () => {
       <img src="/Images/beginnersbest1.png" alt="logo" />
       <div className={style.List_Item}>
         <ul>
-          <li><Link to="/selectedtopic/html">HTML</Link></li>
+          <li><Link to="/Html">HTML</Link></li>
           <li><Link to="/selectedtopic/css">CSS</Link></li>
           <li><Link to="/selectedtopic/javascript">JAVASCRIPT</Link></li>
           <li><Link to="/selectedtopic/java">JAVA</Link></li>

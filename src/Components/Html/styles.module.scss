@@ -1,0 +1,29 @@
+.HtmlWrapper{
+    width: 100%;
+    display: flex;
+    .Sidebar{
+        width: 20%;
+        display: flex;
+        top: 18vh;
+        position: absolute;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: #293040;
+        ul{
+            color: #f7d689;
+            list-style-type: none;
+            li{
+                font-size: 15px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .Detail{
+        width: 65%;
+        top: 18vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
