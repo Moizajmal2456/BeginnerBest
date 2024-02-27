@@ -2,10 +2,10 @@
     width: 100%;
     display: flex;
     .Sidebar{
+        top: 18vh;
         width: 20%;
         display: flex;
-        top: 18vh;
-        position: absolute;
+        position: relative;
         flex-direction: column;
         min-height: 100vh;
         background-color: #293040;
@@ -23,6 +23,7 @@
     .Detail{
         width: 65%;
         top: 18vh;
+        position: relative;
         display: flex;
         flex-direction: column;
     }
