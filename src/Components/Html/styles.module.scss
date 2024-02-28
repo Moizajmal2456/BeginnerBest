@@ -4,21 +4,21 @@
     .Sidebar{
         top: 18vh;
         width: 20%;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        min-height: 100vh;
-        background-color: #293040;
-        ul{
-            color: #f7d689;
-            list-style-type: none;
-            li{
-                font-size: 15px;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-        }
+        // display: flex;
+        // position: relative;
+        // flex-direction: column;
+        // min-height: 100vh;
+        // background-color: #293040;
+        // ul{
+        //     color: #f7d689;
+        //     list-style-type: none;
+        //     li{
+        //         font-size: 15px;
+        //         &:hover{
+        //             cursor: pointer;
+        //         }
+        //     }
+        // }
     }
     .Detail{
         width: 65%;
