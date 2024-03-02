@@ -1,6 +1,6 @@
 export const LeftbarData = [
-    { name: "html", value:"Htmlstructure" },
-    { name: "html", value:"Textelements" },
+    { name: "html", value:"Html Structure" },
+    { name: "html", value:"Text Elements" },
     { name: "html", value:"Links and Naviagtion"},
     { name: "html", value:"Images"},
     { name: "html", value:"Formatting"},
@@ -112,8 +112,8 @@ export const LeftbarData = [
 ]
 
 export const Htmldata = [
-    { name: "Htmlstructure" },
-    { name: "Textelements" },
+    { name: "Html Structure" },
+    { name: "Text Elements" },
     { name: "Links and Naviagtion"},
     { name: "Images"},
     { name: "Formatting"},
