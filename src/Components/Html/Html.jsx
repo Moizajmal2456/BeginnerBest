@@ -52,6 +52,7 @@ return(
         <li>Right-click on the file and choose "Open with" and select your preferred web browser (e.g., Chrome, Firefox, or Edge).</li>
         <li>Your HTML page should open in the browser, displaying the content you defined in your HTML code.</li>
       </ul>
+      
    </div>
  </div>
 );

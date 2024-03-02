@@ -1,8 +1,9 @@
 .Leftbar{
+    width: 18%;
     display: flex;
     flex-direction: column;
     // width: 20%;
-    // position: fixed;
+    position: fixed;
     top: 18vh;
     min-height: 100vh;
     background-color: #293040;
