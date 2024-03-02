@@ -143,7 +143,76 @@ return(
       <p>{"<img src=image.jpg alt=Image Link>"}</p>
       <p>{"</a>"}</p>
 
-      
+      <h2>Tables</h2>
+      <p>{"In HTML, tables are used to display data in rows and columns. The primary tags for creating tables are <table>, <tr> (table row), <th> (table header), and <td> (table data). Here's an example of a simple HTML table:"}</p>
+      <ul>
+        <lis>{"The <table> tag defines the start of the table."}</lis>
+        <li>{"The <thead> tag contains header rows within <tr> and <th> tags."}</li>
+        <li>{"The <tbody> tag contains the main content rows within <tr> and <td> tags."}</li>
+        <li>{"The border=1 attribute on the <table> tag adds a simple border around the table."}</li>
+      </ul>
+      <h2>colspan and rowspan Attributes:</h2>
+      <p>The colspan attribute defines the number of columns a header cell should span, and rowspan defines the number of rows a cell should span.</p>
+      <p>{"<tr>"}</p>
+      <p>{"<th colspan=2>Employee Details</th>"}</p>
+      <p>{"</tr>"}</p>
+      <p>{"<tr>"}</p>
+      <p>{"<td rowspan=2>1</td>"}</p>
+      <p>{"<td>John Doe</td>"}</p>
+      <p>{"</tr>"}</p>
+      <p>{"<tr>"}</p>
+      <p>{"<td>Developer</td>"}</p>
+      <p>{"</tr>"}</p>
+
+      <h2>Forms</h2>
+      <p>HTML provides various form-related tags that allow you to create interactive forms on web pages. Here are some commonly used form tags:</p>
+      <h2>{"1. <form> - Form Element:"}</h2>
+      <p>{"<form action=/submit-form method=post>"}</p>
+      <p> Form controls go here</p>
+      <p>{"</form>"}</p>
+      <ul>
+        <li>action: Specifies the URL to which the form data should be sent.</li>
+        <li>method: Specifies the HTTP method to be used for sending form data ("get" or "post").</li>
+      </ul>
+      <h2>{"2. <input> - Input Element:"}</h2>
+      <p>{"The <input> element is used to create various types of form controls, such as text fields, checkboxes, radio buttons, etc."}</p>
+      <p>{`<input type="text" name="username" id="username" placeholder="Enter your username" required>`}</p>
+      <ul>
+        <li>type: Specifies the type of input control.</li>
+        <li>name: Specifies the name of the input control, used when submitting the form.</li>
+        <li>id: Specifies a unique identifier for the input control.</li>
+        <li>placeholder: Provides a short hint that describes the expected value of the input field.</li>
+        <li>required: Specifies that the input must be filled out before submitting the form.</li>
+      </ul>
+      <h2>{"3. <label> - Label Element:"}</h2>
+      <p>{`The <label> element is used to define a label for an <input>, <select>, <textarea>, etc. It improves accessibility and allows users to click the label to focus on the associated form control.`}</p>
+      <p>{`<label for="username">Username:</label>`}</p>
+      <p>{`<input type="text" name="username" id="username" required>`}</p>
+      <ul>
+        <li>for: Associates the label with a form control using the control's id.</li>
+      </ul>
+      <h2>{"4. <textarea> - Textarea Element:"}</h2>
+      <p>{`The <textarea> element is used to create a multiline text input control.`}</p>
+      <p>{`<label for="message">Message:</label>`}</p>
+      <p>{`<textarea id="message" name="message" rows="4" required></textarea>`}</p>
+      <ul>
+        <li>rows: Specifies the number of visible text lines in the textarea.</li>
+      </ul>
+      <h2>{"5. <button> - Button Element:"}</h2>
+      <p>{`The <button> element is used to create clickable buttons inside forms.`}</p>
+      <p>{`<button type="submit">Submit</button>`}</p>
+      <ul>
+        <li>type: Specifies the type of button ("submit", "reset", or "button").</li>
+      </ul>
+      <h2>{`6. <input type="radio"> and <input type="checkbox"> - Radio and Checkbox:`}</h2>
+      <p>{`These input types are used for radio buttons and checkboxes, respectively.`}</p>
+      <p>{`<input type="radio" id="male" name="gender" value="male">`}</p>
+      <p>{`<label for="male">Male</label>`}</p>
+      <p>{`<input type="checkbox" id="subscribe" name="subscribe">`}</p>
+      <p>{`<label for="subscribe">Subscribe to newsletter</label>`}</p>
+      <ul>
+        <li>name: Specifies the group to which the radio button or checkbox belongs.</li>
+      </ul>
    </div>
  </div>
 );

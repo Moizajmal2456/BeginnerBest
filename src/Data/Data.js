@@ -3,9 +3,9 @@ export const LeftbarData = [
     { name: "html", value:"Text Elements" },
     { name: "html", value:"Links and Naviagtion"},
     { name: "html", value:"Images"},
-    { name: "html", value:"Formatting"},
     { name: "html", value:"Tables"},
     { name: "html", value:"Form"},
+    { name: "html", value:"Html Tags"},
     { name: "css", value:"Basic Styles"},
     { name: "css", value:"Box Model"},
     { name: "css", value:"Dimensions"},
@@ -116,9 +116,9 @@ export const Htmldata = [
     { name: "Text Elements" },
     { name: "Links and Naviagtion"},
     { name: "Images"},
-    { name: "Formatting"},
     { name: "Tables"},
     { name: "Form"},
+    { name: "Html Tags"},
 ]
 
 export const Cssdata = [
